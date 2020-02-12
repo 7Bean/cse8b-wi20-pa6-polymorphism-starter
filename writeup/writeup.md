@@ -235,7 +235,7 @@ These classes will allow you to perform the negative (`-`), sum (`+`), differenc
     - Implement (and override) the `evaluate` method by returning a reference to `this` instance
     - Implement (and override) the `intEvaluate` method by returning the `int` that this `IntegerValue` represents
     - Implement (and override) the `boolEvaluate` method by returning the respective `boolean` mentioned in the conversion guide [above](#####Conversion-Guide)
-    - Implement (and override) the `value` method by returning the `String` representation of the `int` that this `IntegerValue` represents
+    - Implement (and override) the `toString` method by returning the `String` representation of the `int` that this `IntegerValue` represents
         - For example, if this `IntegerValue` represents `10`, this method should return the String value `"10"`.
 
 #### `Negative.java`: 1 constructor, 1 other concrete method

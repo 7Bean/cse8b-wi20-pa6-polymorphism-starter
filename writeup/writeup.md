@@ -43,8 +43,7 @@ Each operation will be broken down into their individual classes so we can pract
 
 
 #### Diagram
-![](https://i.imgur.com/mAN7BYB.png)
-
+![](https://i.imgur.com/pWnH4Y7.png)
 
 
 Looking at the diagram, we can see that all classes will inherit from the `Expression` class. All `Expression`
